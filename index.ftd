@@ -65,11 +65,11 @@ $on-click$: $toggle($value = $box.open)
 -- ftd.text: $box.title
 
 -- ftd.text: X
-if: { !box.open }
+if: { box.open }
 color: red
 
 -- ftd.text: O
-if: { box.open }
+if: { !box.open }
 color: green
 
 -- end: ftd.row
